@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#b53a0d">
+  <title>Pump Kebab — $KEBAB</title>
+  <meta name="description" content="Pump Kebab is the sizzling home of $KEBAB. Play the kebab game, join the community, and keep the grill hot.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pump-kebab.stivan-ms.chatgpt.site/">
+  <meta property="og:title" content="Pump Kebab — $KEBAB">
+  <meta property="og:description" content="Play the kebab game, join the community, and keep the grill hot.">
+  <meta property="og:image" content="https://pump-kebab.stivan-ms.chatgpt.site/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pump Kebab — $KEBAB">
+  <meta name="twitter:description" content="Play the kebab game, join the community, and keep the grill hot.">
+  <meta name="twitter:image" content="https://pump-kebab.stivan-ms.chatgpt.site/og.png">
+  <link rel="icon" type="image/png" href="logo_2.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#17110e;--paper:#fff8eb;--orange:#b53a0d;--yellow:#ffd84d;--cream:#fff1cf;--line:rgba(23,17,14,.16)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}button{font:inherit}
+    .shell{width:min(1180px,calc(100% - 40px));margin:auto}.nav{height:82px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+    .brand{display:flex;align-items:center;gap:11px;font:1.15rem "Archivo Black",sans-serif;letter-spacing:-.04em}.brand img{width:44px;height:44px;object-fit:cover;border:2px solid var(--ink);border-radius:50%}.brand span{color:var(--orange)}.navlinks{display:flex;align-items:center;gap:28px;font-weight:700;font-size:.92rem}.nav-cta,.button{display:inline-flex;align-items:center;justify-content:center;border:2px solid var(--ink);border-radius:999px;font-weight:800;transition:.2s ease}.nav-cta{padding:11px 18px;background:var(--ink);color:white}.nav-cta:hover,.button:hover{transform:translateY(-3px);box-shadow:4px 5px 0 var(--ink)}
+    .hero{min-height:690px;display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:44px;padding:70px 0 80px}.eyebrow{display:inline-flex;gap:9px;align-items:center;font-weight:800;text-transform:uppercase;letter-spacing:.12em;font-size:.76rem}.dot{width:9px;height:9px;background:var(--orange);border-radius:50%;box-shadow:0 0 0 5px rgba(181,58,13,.18)}
+    h1,h2,h3,p{margin-top:0}.hero h1{font:clamp(4rem,9vw,8.3rem)/.84 "Archivo Black",sans-serif;letter-spacing:-.075em;margin:30px 0}.hero h1 span{color:var(--orange);display:block}.lead{font-size:clamp(1.06rem,2vw,1.35rem);line-height:1.55;max-width:590px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}.button{padding:15px 24px;background:var(--orange);color:white}.button.alt{background:transparent;color:var(--ink)}
+    .hero-art{position:relative;min-height:510px;display:grid;place-items:center}.sun{width:min(440px,88vw);aspect-ratio:1;border-radius:50%;background:var(--cream);border:3px solid var(--ink);box-shadow:18px 20px 0 var(--orange);display:grid;place-items:center;position:relative;overflow:hidden}.hero-logo{width:100%;height:100%;object-fit:cover;animation:float 3s ease-in-out infinite}.stamp{position:absolute;background:var(--ink);color:white;border-radius:999px;padding:14px 19px;font:1rem "Archivo Black",sans-serif;transform:rotate(8deg);right:3%;bottom:13%}@keyframes float{50%{transform:scale(1.025) translateY(-6px)}}
+    .game-section{padding:110px 0}.section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:40px}.section-kicker{color:var(--orange);font-weight:800;text-transform:uppercase;letter-spacing:.13em;font-size:.75rem}.section-head h2{font:clamp(2.8rem,6vw,5.5rem)/.9 "Archivo Black",sans-serif;letter-spacing:-.06em;margin:12px 0 0;max-width:760px}.section-head p{max-width:390px;line-height:1.6;margin-bottom:4px}
+    .game-frame{background:var(--ink);border:3px solid var(--ink);border-radius:26px;padding:10px;box-shadow:15px 16px 0 var(--orange);overflow:hidden}.game-bar{height:46px;color:white;display:flex;align-items:center;gap:9px;padding:0 10px;font-weight:700;font-size:.86rem}.traffic{width:10px;height:10px;border-radius:50%;background:var(--orange)}.traffic:nth-child(2){background:var(--yellow)}.traffic:nth-child(3){background:#79d67b}.game-bar strong{margin-left:8px}.game-frame iframe{display:block;width:100%;height:1000px;border:0;border-radius:15px;background:#fff}
+    .guide-wrap{margin-top:34px;border:2px solid var(--ink);border-radius:20px;overflow:hidden}.guide-toggle{width:100%;border:0;background:var(--yellow);color:var(--ink);padding:18px 22px;display:flex;align-items:center;justify-content:space-between;text-align:left;font-weight:800;cursor:pointer}.guide-toggle b{font-family:"Archivo Black",sans-serif}.guide-toggle .arrow{font-size:1.4rem;transition:transform .25s}.guide-toggle[aria-expanded="true"] .arrow{transform:rotate(45deg)}.guide-content{display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s ease}.guide-content.open{grid-template-rows:1fr}.guide-inner{overflow:hidden}.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--line)}.step{background:#fffdf7;padding:24px 18px}.step-num{font:2.4rem "Archivo Black",sans-serif;color:var(--orange);margin-bottom:20px}.step h3{font:1rem "Archivo Black",sans-serif;line-height:1.2;margin-bottom:8px}.step p{font-size:.88rem;line-height:1.5;margin:0;color:#625650}
+    .story{background:var(--orange);color:white;border-block:3px solid var(--ink);padding:110px 0;position:relative;overflow:hidden}.story:before{content:"KEBAB";position:absolute;right:-.04em;bottom:-.18em;font:clamp(9rem,26vw,25rem)/1 "Archivo Black",sans-serif;color:rgba(255,216,77,.16);letter-spacing:-.08em}.story-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:80px;position:relative;z-index:1}.story h2{font:clamp(3.3rem,7vw,7rem)/.86 "Archivo Black",sans-serif;letter-spacing:-.07em;margin:14px 0 30px}.story-copy{font-size:clamp(1.2rem,2.2vw,1.65rem);line-height:1.5;align-self:center}.story-copy p:last-child{font-size:1rem;max-width:560px;opacity:.85;margin-top:28px}
+    .values{display:grid;grid-template-columns:repeat(3,1fr);border:2px solid var(--ink);border-radius:24px;overflow:hidden;margin-top:-34px;position:relative;z-index:2;background:var(--paper);box-shadow:10px 11px 0 var(--ink)}.value{padding:34px}.value+.value{border-left:2px solid var(--ink)}.value-icon{font-size:2rem}.value h3{font:1.25rem "Archivo Black",sans-serif;margin:18px 0 10px}.value p{line-height:1.6;color:#625650;margin:0}
+    .roadmap{padding:140px 0 110px}.roadmap-head{text-align:center;max-width:760px;margin:0 auto 64px}.roadmap-head h2{font:clamp(3rem,7vw,6.5rem)/.9 "Archivo Black",sans-serif;letter-spacing:-.07em;margin:14px 0 22px}.roadmap-head p{line-height:1.65}.phases{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.phase{border:2px solid var(--ink);border-radius:22px;padding:28px;min-height:300px;display:flex;flex-direction:column;transition:.2s}.phase:hover{transform:translateY(-6px);box-shadow:7px 8px 0 var(--ink)}.phase:nth-child(2){background:var(--yellow)}.phase:nth-child(3){background:var(--ink);color:white}.phase-tag{font-weight:800;text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;color:var(--orange)}.phase:nth-child(3) .phase-tag{color:var(--yellow)}.phase h3{font:1.55rem "Archivo Black",sans-serif;margin:18px 0}.phase ul{list-style:none;padding:0;margin:auto 0 0}.phase li{padding:9px 0;border-top:1px solid currentColor;font-size:.94rem}
+    .cta-section{padding:30px 0 110px}.cta-card{background:var(--yellow);border:3px solid var(--ink);border-radius:32px;padding:clamp(40px,7vw,90px);text-align:center;position:relative;overflow:hidden;box-shadow:14px 15px 0 var(--orange)}.cta-card:before,.cta-card:after{position:absolute;font-size:7rem}.cta-card:before{content:"🌶️";left:-26px;top:-27px;transform:rotate(-25deg)}.cta-card:after{content:"🧅";right:-25px;bottom:-30px;transform:rotate(18deg)}.cta-card h2{font:clamp(3rem,7vw,6.5rem)/.88 "Archivo Black",sans-serif;letter-spacing:-.07em;margin-bottom:22px;position:relative}.cta-card p{font-size:1.15rem;max-width:620px;margin:0 auto 30px;line-height:1.6;position:relative}.status-pill{display:inline-flex;align-items:center;gap:9px;border:2px solid var(--ink);border-radius:999px;padding:10px 16px;background:rgba(255,255,255,.45);font-weight:800;margin-bottom:24px}.footer{background:var(--ink);color:white;padding:55px 0}.footer-grid{display:flex;justify-content:space-between;align-items:end;gap:30px}.footer-brand{font:clamp(2rem,5vw,4rem)/1 "Archivo Black",sans-serif;letter-spacing:-.06em}.footer-brand span{color:var(--orange)}.footer p{color:#cbbfb6;max-width:450px;line-height:1.6;margin:18px 0 0}.footer-right{text-align:right}.footer-right a{font-weight:800;color:var(--yellow)}.footer-right small{display:block;color:#8e837b;margin-top:18px;max-width:430px;line-height:1.5}
+    .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:none}
+    @media(max-width:900px){.steps{grid-template-columns:1fr 1fr}.step:last-child{grid-column:1/-1}.story-grid{grid-template-columns:1fr;gap:20px}.values{grid-template-columns:1fr}.value+.value{border-left:0;border-top:2px solid var(--ink)}.phases{grid-template-columns:1fr}.phase{min-height:260px}}
+    @media(max-width:800px){.navlinks a:not(.nav-cta){display:none}.nav-cta{padding:10px 14px;font-size:.8rem}.hero{grid-template-columns:1fr;padding:58px 0 90px}.hero-art{min-height:360px}.sun{width:310px}.section-head{display:block}.section-head p{margin-top:20px}.game-section{padding:80px 0}.game-frame{border-radius:18px;padding:7px;box-shadow:8px 9px 0 var(--orange)}.story{padding:85px 0}.values{margin-top:-22px}.roadmap{padding:110px 0 80px}.footer-grid{display:block}.footer-right{text-align:left;margin-top:35px}.shell{width:min(100% - 24px,1180px)}}
+    @media(max-width:540px){.brand{font-size:.98rem}.steps{grid-template-columns:1fr}.step:last-child{grid-column:auto}.cta-card:before,.cta-card:after{opacity:.35}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-logo{animation:none}.button,.nav-cta{transition:none}}
+  </style>
+</head>
+<body>
+  <header class="shell nav">
+    <a class="brand" href="#top" aria-label="Pump Kebab home"><img src="logo_2.png" alt="">PUMP KEBAB <span>$KEBAB</span></a>
+    <nav class="navlinks" aria-label="Primary navigation"><a href="#game">Game</a><a href="#story">Story</a><a href="#roadmap">Roadmap</a><a class="nav-cta" href="https://x.com/i/communities/1951020297458778140" target="_blank" rel="noopener">Join the community ↗</a></nav>
+  </header>
+  <main id="top">
+    <section class="shell hero">
+      <div>
+        <div class="eyebrow"><span class="dot"></span>Fresh from the chain</div>
+        <h1>PUMP.<span>GRILL.</span>REPEAT.</h1>
+        <p class="lead">Meet Pump Kebab — the loudest grill on the timeline. Powered by memes, late-night hunger, and a community that always asks for extra sauce.</p>
+        <div class="actions"><a class="button" href="#game">Play the game ↓</a><a class="button alt" href="https://x.com/i/communities/1951020297458778140" target="_blank" rel="noopener">Follow on X ↗</a></div>
+      </div>
+      <div class="hero-art"><div class="sun"><img class="hero-logo" src="logo_2.png" alt="Pump Kebab capsule logo"></div><div class="stamp">HOT &amp; ONCHAIN</div></div>
+    </section>
+    <section class="shell game-section" id="game">
+      <div class="section-head"><div><div class="section-kicker">The kebab shop</div><h2>YOU’RE ON THE GRILL.</h2></div><p>Take orders, stack ingredients, slice the meat, and keep the customers moving. The rush starts now.</p></div>
+      <div class="game-frame"><div class="game-bar"><i class="traffic"></i><i class="traffic"></i><i class="traffic"></i><strong>Pump Kebab Arcade</strong></div><iframe src="https://html-classic.itch.zone/html/5442426/index.html" title="Pump Kebab arcade game" allow="fullscreen; autoplay" allowfullscreen loading="lazy"></iframe></div>
+      <div class="guide-wrap reveal">
+        <button class="guide-toggle" type="button" aria-expanded="false" aria-controls="guide"><b>Need the secret sauce? See how to play</b><span class="arrow" aria-hidden="true">＋</span></button>
+        <div class="guide-content" id="guide"><div class="guide-inner"><div class="steps">
+          <article class="step"><div class="step-num">01</div><h3>READ THE ORDER</h3><p>Check the ticket before you touch the grill.</p></article>
+          <article class="step"><div class="step-num">02</div><h3>GRAB THE GOODS</h3><p>Drag every ingredient into place.</p></article>
+          <article class="step"><div class="step-num">03</div><h3>SLICE IT FAST</h3><p>Work the spit and keep the meat moving.</p></article>
+          <article class="step"><div class="step-num">04</div><h3>SERVE IT HOT</h3><p>Hand over the order before patience runs out.</p></article>
+          <article class="step"><div class="step-num">05</div><h3>LEVEL UP</h3><p>Buy upgrades, move faster, rule the rush.</p></article>
+        </div></div></div>
+      </div>
+    </section>
+
+    <section class="story" id="story">
+      <div class="shell story-grid reveal">
+        <div><div class="section-kicker" style="color:var(--yellow)">Our whole story</div><h2>NO SUITS.<br>JUST SAUCE.</h2></div>
+        <div class="story-copy"><p>Pump Kebab was born where internet culture meets the neighborhood grill: loud, quick, a little chaotic, and best enjoyed together.</p><p>$KEBAB is a community meme token with one simple mission — turn the feed into a 24/7 kebab shop. The game is already open. Pull up, take an order, and bring your appetite.</p></div>
+      </div>
+    </section>
+
+    <div class="shell values reveal">
+      <article class="value"><div class="value-icon">🔥</div><h3>COMMUNITY COOKED</h3><p>Built around the people who show up, make memes, and keep the grill alive.</p></article>
+      <article class="value"><div class="value-icon">🎮</div><h3>PLAYABLE ENERGY</h3><p>A real kebab game at the center of the site — not just another empty plate.</p></article>
+      <article class="value"><div class="value-icon">🥙</div><h3>EXTRA EVERYTHING</h3><p>More flavor, more fun, more reasons to come back for one last order.</p></article>
+    </div>
+
+    <section class="shell roadmap" id="roadmap">
+      <div class="roadmap-head reveal"><div class="section-kicker">What’s cooking</div><h2>THE KEBAB PLAN.</h2><p>No corporate soup. Just a clear path from opening night to a full-on street-food movement.</p></div>
+      <div class="phases">
+        <article class="phase reveal"><div class="phase-tag">Phase 01 · Prep</div><h3>OPEN THE SHOP</h3><ul><li>Launch the new Pump Kebab brand</li><li>Bring the arcade online</li><li>Gather the first grill crew</li></ul></article>
+        <article class="phase reveal"><div class="phase-tag">Phase 02 · Rush</div><h3>FEED THE TIMELINE</h3><ul><li>Community challenges</li><li>High-score showdowns</li><li>Fresh memes, daily specials</li></ul></article>
+        <article class="phase reveal"><div class="phase-tag">Phase 03 · Feast</div><h3>GO GLOBAL</h3><ul><li>Creative collaborations</li><li>New game moments</li><li>The biggest table onchain</li></ul></article>
+      </div>
+    </section>
+
+    <section class="shell cta-section">
+      <div class="cta-card reveal">
+        <div class="status-pill"><span class="dot"></span> Contract details coming soon</div>
+        <h2>THE GRILL IS<br>GETTING HOT.</h2>
+        <p>Join the Pump Kebab community for launch updates, game nights, and all the extra sauce.</p>
+        <a class="button" href="https://x.com/i/communities/1951020297458778140" target="_blank" rel="noopener">Join us on X ↗</a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="shell footer-grid"><div><div class="footer-brand">PUMP KEBAB <span>$KEBAB</span></div><p>Internet culture, served hot. Come for the memes. Stay for the game.</p></div><div class="footer-right"><a href="#top">Back to the grill ↑</a><small>$KEBAB is a community meme token. Nothing on this website is financial advice. Always do your own research.</small></div></div></footer>
+  <script>
+    const toggle = document.querySelector('.guide-toggle');
+    const guide = document.querySelector('.guide-content');
+    toggle.addEventListener('click', () => {
+      const open = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!open));
+      guide.classList.toggle('open', !open);
+    });
+    const observer = new IntersectionObserver((entries) => entries.forEach((entry) => {
+      if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
+    }), { threshold: .12 });
+    document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
+  </script>
+</body>
+</html>
